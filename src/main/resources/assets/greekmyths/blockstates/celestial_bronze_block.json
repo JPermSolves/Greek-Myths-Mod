@@ -1,5 +1,7 @@
 {
     "variants": {
-        "": {"model": "greekmythsmod:blocks/celestial_bronze_block"}
+        "": {
+            "model": "greekmyths:block/celestial_bronze_block"
+        }
     }
 }

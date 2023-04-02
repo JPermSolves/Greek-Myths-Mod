@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "greekmyths:item/raw_celestial_bronze"
+    }
+}

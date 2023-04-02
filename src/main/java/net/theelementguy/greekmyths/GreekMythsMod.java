@@ -3,6 +3,7 @@ package main.java.net.theelementguy.greekmyths;
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
 import main.java.net.theelementguy.greekmyths.block.ModBlocks;
+import main.java.net.theelementguy.greekmyths.world.feature.ModConfiguredFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +26,8 @@ public class GreekMythsMod {
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

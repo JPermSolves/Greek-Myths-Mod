@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "cookingtime": 1600,
+    "experience": 20,
+    "ingredient": {
+        "item": "greekmyths:raw_celestial_bronze"
+    },
+    "result": "greekmyths:celestial_bronze_ingot"
+}

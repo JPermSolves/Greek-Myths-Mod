@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "greekmyths:block/celestial_bronze_deepslate_ore"
+    }
+}
