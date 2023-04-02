@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "greekmythsmod:block/celestial_bronze_block"
+    }
+}

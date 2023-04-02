@@ -1,5 +1,9 @@
 {
     "item.greekmyths.celestial_bronze_ingot": "Celestial Bronze Ingot",
     "item.greekmyths.stygian_iron_ingot": "Sytgian Iron Ingot",
-    "item.greekmyths.imperial_gold_ingot": "Imperial Gold Ingot (Texture Pending)"
+    "item.greekmyths.imperial_gold_ingot": "Imperial Gold Ingot (Texture Pending)",
+
+    "item.greekmyths.celestial_bronze_sword": "Celestial Bronze Sword",
+
+    "block.greekmyths.celestial_bronze_block": "Block of Celestial Bronze"
 }

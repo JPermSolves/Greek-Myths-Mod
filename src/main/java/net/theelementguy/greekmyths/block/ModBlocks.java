@@ -26,10 +26,10 @@ public class ModBlocks {
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab) {
-        return ModItems.ITEMS.register(name, () -> new BlockItem(block, new Item.Properties().tab(tab)));
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
-    public static final RegistryObject<Block> CELESTIAL_BRONZE_BLOCK = registerBlock("celestial_bronze_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL), CreativeModeTab.TAB_BUILDING_BLOCKS));
+    public static final RegistryObject<Block> CELESTIAL_BRONZE_BLOCK = registerBlock("celestial_bronze_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     public static void register(IEventBus eventbus) {
         BLOCKS.register(eventbus);
