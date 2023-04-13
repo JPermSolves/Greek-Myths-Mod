@@ -1,6 +1,9 @@
 package main.java.net.theelementguy.greekmyths.item.custom;
 
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
@@ -13,11 +16,15 @@ public class MonsterHuntingSwordItem extends SwordItem {
     }
 
     @Override
-    public boolean hurtEnemy(ItemStack p_43278_, LivingEntity p_43279_, LivingEntity p_43280_) {
-        
-        p_43279_.kill();
+    public boolean hurtEnemy(ItemStack item, LivingEntity hitEntity, LivingEntity hittingEntity) {
+        hittingEntity.sendSystemMessage(Component.literal("This method is running."));
 
-        return super.hurtEnemy(p_43278_, p_43279_, p_43280_);
+        if (hitEntity instanceof Enemy) {
+            hitEntity.hurt(DamageSource.GENERIC, 25f);
+            hittingEntity.sendSystemMessage(Component.literal("You hit an enemy!"));
+        }
+
+        return super.hurtEnemy(item, hitEntity, hittingEntity);
     }
     
 }
