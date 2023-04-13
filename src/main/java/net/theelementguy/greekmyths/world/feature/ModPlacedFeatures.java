@@ -31,7 +31,7 @@ public class ModPlacedFeatures {
         return orePlacement(RarityFilter.onAverageOnceEvery(p_195350_), p_195351_);
     }
 
-    public static final RegistryObject<PlacedFeature> CELESTIAL_BRONZE_ORE_PLACED = PLACED_FEATURES.register("celestial_bronze_ore_placed", () -> new PlacedFeature(ModConfiguredFeatures.CELESTIAL_BRONZE_ORE.getHolder().get(), commonOrePlacement(13, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(0)))));
+    public static final RegistryObject<PlacedFeature> CELESTIAL_BRONZE_ORE_PLACED = PLACED_FEATURES.register("celestial_bronze_ore_placed", () -> new PlacedFeature(ModConfiguredFeatures.CELESTIAL_BRONZE_ORE.getHolder().get(), rareOrePlacement(7, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(64)))));
 
     public static void register(IEventBus eventBus) {
         PLACED_FEATURES.register(eventBus);
