@@ -21,7 +21,8 @@ public class ModConfiguredFeatures {
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_CELESTIAL_BRONZE_ORES = Suppliers.memoize(() -> List.of(OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.CELESTIAL_BRONZE_DEEPSLATE_ORE.get().defaultBlockState())));
 
-    public static final RegistryObject<ConfiguredFeature<?, ?>> CELESTIAL_BRONZE_ORE = CONFIGURED_FEATURES.register("celestial_bronze", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_CELESTIAL_BRONZE_ORES.get(), 3)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> CELESTIAL_BRONZE_ORE = CONFIGURED_FEATURES.register("celestial_bronze", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_CELESTIAL_BRONZE_ORES.get(), 5)));
+    //Vein size
 
     public static void register(IEventBus eventbus) {
         CONFIGURED_FEATURES.register(eventbus);

@@ -1,11 +1,11 @@
 {
-    "item.greekmyths.celestial_bronze_ingot": "Celestial Bronze Ingot",
+    "item.greekmyths.celestial_bronze_ingot": "§3Celestial Bronze Ingot",
     "item.greekmyths.stygian_iron_ingot": "Sytgian Iron Ingot",
     "item.greekmyths.imperial_gold_ingot": "Imperial Gold Ingot (Texture Pending)",
-    "item.greekmyths.raw_celestial_bronze": "Raw Celestial Bronze",
+    "item.greekmyths.raw_celestial_bronze": "§3Raw Celestial Bronze",
 
-    "item.greekmyths.celestial_bronze_sword": "Celestial Bronze Sword",
+    "item.greekmyths.celestial_bronze_sword": "§3Celestial Bronze Sword",
 
-    "block.greekmyths.celestial_bronze_block": "Block of Celestial Bronze",
-    "block.greekmyths.celestial_bronze_deepslate_ore": "Deepslate Celestial Bronze Ore"
+    "block.greekmyths.celestial_bronze_block": "§3Block of Celestial Bronze",
+    "block.greekmyths.celestial_bronze_deepslate_ore": "§3Deepslate Celestial Bronze Ore"
 }
