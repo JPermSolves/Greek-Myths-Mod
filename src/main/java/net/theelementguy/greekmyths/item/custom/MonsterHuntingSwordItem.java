@@ -22,21 +22,7 @@ public class MonsterHuntingSwordItem extends SwordItem {
 
     public MonsterHuntingSwordItem(Tier p_43269_, int p_43270_, float p_43271_, Properties p_43272_) {
         super(p_43269_, p_43270_, p_43271_, p_43272_);
-        
         //TODO Auto-generated constructor stub
-    }
-
-    @Override
-    public void appendHoverText(ItemStack p_41421_, Level p_41422_, List<Component> components, TooltipFlag p_41424_) {
-        // TODO Auto-generated method stub
-
-        components.add(Component.literal("This sword feels ancient. Looking down at the gleaming blade you know this sword with fight like no other. However, it does not hurt anything other than monster.").withStyle(ChatFormatting.DARK_AQUA).withStyle(ChatFormatting.BOLD));
-
-        super.appendHoverText(p_41421_, p_41422_, components, p_41424_);
-    }
-
-    public boolean isMonsterHuntingSwordItem() {
-        return true;
     }
 
 }

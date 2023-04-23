@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        " s ",
+        " s "
+    ],
+    "key": {
+        "i": {
+            "item": "greekmyths:celestial_bronze_ingot"
+        },
+        "s": {
+            "item": "stick"
+        }
+    },
+    "result": {
+        "item": "greekmyths:celestial_bronze_sword"
+    }
+}
